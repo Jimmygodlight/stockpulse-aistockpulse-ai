@@ -34,7 +34,7 @@
 
 The initial moving-average experiment compares a 20/50-day trend signal against buy-and-hold on historical adjusted prices. A positive historical return alone does not establish out-of-sample performance. Relevant risks include look-ahead bias, survivorship bias, unrealistic costs, and parameter selection bias.
 
-## Planned extension (Step 19)
+## Planned extension
 
 Build a **next-day direction classifier** with lagged features, chronological training/holdout splits, and evaluation against a majority-class baseline. Use walk-forward validation and avoid any features calculated after the prediction timestamp.
 
