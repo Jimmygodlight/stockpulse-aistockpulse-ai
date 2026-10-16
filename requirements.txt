@@ -1,0 +1,10 @@
+# Core packages used by the agent and the price/backtesting scripts.
+# Versions should be pinned after testing the exported Agent Studio code.
+google-adk
+google-genai
+google-cloud-bigquery
+pandas
+numpy
+yfinance
+pyarrow
+db-dtypes
